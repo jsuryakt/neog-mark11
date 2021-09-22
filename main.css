@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --primary-color: #3e3d57;
+  --secondary-color: #f45905;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+  --black: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+label {
+  display: block;
+  margin-top: 2rem;
+}
+
+input {
+    width: 150px;
+    border-radius: 0.5rem;
+    padding:0.3rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.container-center {
+    margin: 1rem;
+}
+
+#btn-check-lucky {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
+
+#p-lucky-or-not {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin:2rem;
+    font-size: large;
+}
