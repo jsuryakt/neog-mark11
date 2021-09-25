@@ -14,9 +14,9 @@ function handleClick() {
     if(dob.value.trim().length == 0 || luckyNumber.value.trim().length == 0) {
         output.innerText = "how can you be lucky without entering anything?"
     }
-    else if((day+month+year)%lucky == 0 && lucky != 1){
+    else if((day+month+year)%lucky == 0 && lucky > 1){
         output.innerText = "woah! It's a lucky number";
     }else {
-        output.innerText = "oops! Not a lucky number";
+        output.innerText = "bad input or bad luck, not a lucky number";
     }
 }
